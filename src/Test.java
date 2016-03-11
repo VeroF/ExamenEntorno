@@ -9,9 +9,10 @@ public class Test {
         //Introducimos el primer numero a identificar
         System.out.print("Introduzca un número: ");
         int num = entrada.nextInt();
+        int num2 = entrada.nextInt();
         
-       //El valor inciial del for
-        for(;num != 0;){
+       //El valor inicial del for: 
+        for(;num != -1;){
             if (num < 0 || num > 10)
                 System.out.println("El número debe ser entre 1 y 10.");
             else {
@@ -21,7 +22,8 @@ public class Test {
                     System.out.printf("%d x %d = %d\n", num, i, (num * i));
                 }
             }
-            System.out.print("Introduzca un número: ");
+            
+            System.out.print("Vuelva a Introduzca un número: ");
             num = entrada.nextInt();
         }
         System.out.println("Ha finalizado la ejecución del programa");
