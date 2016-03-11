@@ -22,10 +22,11 @@ public class Test {
                     System.out.printf("%d x %d = %d\n", num, i, (num * i));
                 }
             }
-            
+            //Vuelve a pedirnos otra vez un numero:
             System.out.print("Vuelva a Introduzca un número: ");
             num = entrada.nextInt();
         }
+        //Mensaje de fin del programa
         System.out.println("Ha finalizado la ejecución del programa");
     }
     
