@@ -6,10 +6,11 @@ public class Test {
         
         Scanner entrada = new Scanner(System.in);
         
-        
+        //Introducimos el primer numero a identificar
         System.out.print("Introduzca un número: ");
         int num = entrada.nextInt();
         
+       //El valor inciial del for
         for(;num != 0;){
             if (num < 0 || num > 10)
                 System.out.println("El número debe ser entre 1 y 10.");
